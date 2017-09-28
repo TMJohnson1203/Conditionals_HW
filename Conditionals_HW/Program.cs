@@ -60,6 +60,29 @@ namespace Conditionals_HW
                 Console.WriteLine("The numbers are equal.");
             }
 
+            // average of four numbers that user inputs
+
+            //Console.WriteLine("Please enter a whole number");
+            //int firstNum = int.Parse(Console.Readline());
+
+            //Console.WriteLine("Please enter a second number");
+            //int secNum = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please enter four whole numbers. One at time.");
+            int firstNum = int.Parse(Console.ReadLine());
+            int secNum = int.Parse(Console.ReadLine());
+            int thirdNum = int.Parse(Console.ReadLine());
+            int fourthNum = int.Parse(Console.ReadLine());
+
+            double sum = firstNum = secNum + thirdNum + fourthNum;
+
+            Console.WriteLine("The average is" + (sum / 4));
+
+
+
+
+
+
 
     
 
